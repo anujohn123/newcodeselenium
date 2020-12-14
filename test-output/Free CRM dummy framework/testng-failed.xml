@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Free CRM dummy framework]">
+  <test thread-count="5" name="Login Page Test(failed)">
+    <classes>
+      <class name="com.qa.hubspot.tests.loginPageTest">
+        <methods>
+          <include name="loginpagetest"/>
+          <include name="gettitle"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="checksignuplink"/>
+        </methods>
+      </class> <!-- com.qa.hubspot.tests.loginPageTest -->
+    </classes>
+  </test> <!-- Login Page Test(failed) -->
+  <test thread-count="5" name="Home Page Test(failed)">
+    <classes>
+      <class name="com.qa.hubspot.tests.homePageTest">
+        <methods>
+          <include name="verifyheaderTitle"/>
+          <include name="setup"/>
+          <include name="verifyHomePageusername"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.qa.hubspot.tests.homePageTest -->
+    </classes>
+  </test> <!-- Home Page Test(failed) -->
+</suite> <!-- Failed suite [Free CRM dummy framework] -->
