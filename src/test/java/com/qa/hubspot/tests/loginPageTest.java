@@ -8,26 +8,16 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import  com.qa.hubspot.basepage.basePage;
+import com.qa.hubspot.basepage.baseTest;
+import com.qa.hubspot.listeners.ExtentReportListener;
 import com.qa.hubspot.pages.loginPage;;
 
-public class loginPageTest {
-basePage basePage;
-Properties prop ;
-WebDriver driver;
-loginPage LoginPage;
-	
-	@BeforeTest
-	public void setup() throws IOException, InterruptedException
-	{
-		basePage = new basePage();
-		prop = basePage.init_properties();
-		driver = basePage.init_browserName(prop);
-		
-		LoginPage = new  loginPage(driver);
-	}
+
+public class loginPageTest extends baseTest {
 	
 	@Test(priority = 1)
 	public void gettitle()
@@ -50,11 +40,5 @@ loginPage LoginPage;
 		Thread.sleep(4000);
 	}
 	
-	
-	@AfterTest
-	public void teardown()
-	{
-		driver.quit();
-	}
-	
+
 }

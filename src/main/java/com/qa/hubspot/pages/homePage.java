@@ -11,6 +11,9 @@ public class homePage extends basePage{
 	 By username = By.xpath("//div/span[@class ='user-display']");
 	 By header = By.xpath("//div[@id='top-header-menu']");
 	 
+	   By contact = By.xpath("//div/a/span[contains(text(),'Contacts')]//following::button/i");
+	    By contactstext = By.xpath("//div/a/span[contains(text(),'Home')]");
+	 
 	 public homePage(WebDriver driver) {
 		 
 		 this.driver = driver;
@@ -24,9 +27,19 @@ public class homePage extends basePage{
 		 return driver.findElement(username).getText();
 	 }
 	 
-	 public String getHomePageHeader()
+	 public void getHomePageHeader() throws InterruptedException
 	 {
-		 return driver.findElement(header).getText();
+		  driver.findElement(header).getText();
+		  Thread.sleep(5000);
+		 
+	 }
+	 
+	 public contactsPages gotocontacts() throws InterruptedException
+	 {
+		 driver.findElement(contactstext).click();
+		 Thread.sleep(1000);
+		 driver.findElement(contact).click();
+		 return new contactsPages(driver);
 	 }
 	 
 }
