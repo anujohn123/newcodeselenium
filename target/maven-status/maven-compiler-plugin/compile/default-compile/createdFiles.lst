@@ -1,0 +1,12 @@
+com\qa\hubspot\basepage\baseTest.class
+com\qa\hubspot\pages\loginPage.class
+com\qa\hubspot\util\GenericFunctionUtil.class
+com\qa\hubspot\pages\contactsPages.class
+com\qa\hubspot\basepage\constants.class
+com\qa\hubspot\pages\dealsPage.class
+com\qa\hubspot\listeners\pdflistener.class
+com\qa\hubspot\pages\homePage.class
+com\qa\hubspot\listeners\AllureListener.class
+com\qa\hubspot\listeners\ExtentReportListener.class
+com\qa\hubspot\basepage\basePage.class
+com\qa\hubspot\util\ExcelUTil.class
