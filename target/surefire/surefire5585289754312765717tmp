@@ -1,5 +1,5 @@
 #surefire
-#Thu Dec 24 08:22:26 IST 2020
+#Thu Dec 24 08:45:01 IST 2020
 tc.3=com.qa.hubspot.tests.loginPageTest
 tc.1=com.qa.hubspot.tests.dealsPageTest
 tc.2=com.qa.hubspot.tests.homePageTest
@@ -18,7 +18,7 @@ classPathUrl.8=C\:\\Users\\anujo\\.m2\\repository\\org\\apache\\httpcomponents\\
 classPathUrl.9=C\:\\Users\\anujo\\.m2\\repository\\org\\rauschig\\jarchivelib\\1.1.0\\jarchivelib-1.1.0.jar
 classPathUrl.10=C\:\\Users\\anujo\\.m2\\repository\\org\\apache\\commons\\commons-compress\\1.20\\commons-compress-1.20.jar
 classPathUrl.11=C\:\\Users\\anujo\\.m2\\repository\\org\\jsoup\\jsoup\\1.13.1\\jsoup-1.13.1.jar
-classPathUrl.12=C\:\\Users\\anujo\\.m2\\repository\\org\\testng\\testng\\6.14.3\\testng-6.14.3.jar
+classPathUrl.12=C\:\\Users\\anujo\\.m2\\repository\\org\\testng\\testng\\6.14.2\\testng-6.14.2.jar
 classPathUrl.13=C\:\\Users\\anujo\\.m2\\repository\\com\\beust\\jcommander\\1.72\\jcommander-1.72.jar
 classPathUrl.14=C\:\\Users\\anujo\\.m2\\repository\\org\\apache-extras\\beanshell\\bsh\\2.0b6\\bsh-2.0b6.jar
 classPathUrl.15=C\:\\Users\\anujo\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-java\\3.141.59\\selenium-java-3.141.59.jar
@@ -90,7 +90,7 @@ surefireClassPathUrl.4=C\:\\Users\\anujo\\.m2\\repository\\org\\apache\\maven\\s
 surefireClassPathUrl.5=C\:\\Users\\anujo\\.m2\\repository\\org\\apache\\maven\\surefire\\surefire-grouper\\2.20\\surefire-grouper-2.20.jar
 enableAssertions=true
 childDelegation=false
-testFwJarVersion=6.14.3
+testFwJarVersion=6.14.2
 preferTestsFromInStream=false
 testSuiteDefinitionTestSourceDirectory=C\:\\Users\\anujo\\OneDrive\\Desktop\\All framework\\Basic_selenium_2020\\src\\test\\java
 testSuiteXmlFiles0=C\:\\Users\\anujo\\OneDrive\\Desktop\\All framework\\Basic_selenium_2020\\src\\test\\java\\TestResources\\TestNGRunner.xml
