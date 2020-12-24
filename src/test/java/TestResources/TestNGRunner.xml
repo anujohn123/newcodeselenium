@@ -5,7 +5,7 @@
         <listeners>
         <listener class-name="com.qa.hubspot.listeners.ExtentReportListener"></listener>
         
-        <listener class-name="com.qa.hubspot.listeners.AllureListener"></listener>
+        
         </listeners> 
 <test name ="Login Page Test">
    <classes>

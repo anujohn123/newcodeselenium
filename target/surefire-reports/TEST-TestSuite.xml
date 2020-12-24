@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="144.168" tests="10" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="123.326" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\anujo\OneDrive\Desktop\All framework\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1771746259859315311.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\anujo\OneDrive\Desktop\All framework\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2716646162884873853.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_231/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_231/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_231/bin/../jre/lib/amd64;C:\Program Files\Java\jdk1.8.0_231\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\anujo\Downloads\sdk-tools-windows-4333796\platform-tools;C:\Users\anujo\AppData\Local\Android\Sdk\tools\bin;C:\Program Files\nodejs\node_modules\npm\bin;C:\Users\anujo\AppData\Local\Android\Sdk\platform-tools;C:\Users\anujo\AppData\Local\Android\Sdk\platforms\android-29;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\anujo\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\anujo\AppData\Local\Programs\Python\Python37\;C:\Users\anujo\AppData\Local\Microsoft\WindowsApps;C:\Users\anujo\AppData\Roaming\npm;;C:\Users\anujo\Downloads\eclipse-java-2019-09-R-win32-x86_64\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -60,51 +60,14 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="gettitle" classname="com.qa.hubspot.tests.loginPageTest" time="0.162"/>
-  <testcase name="checksignuplink" classname="com.qa.hubspot.tests.loginPageTest" time="0.004"/>
-  <testcase name="loginpagetest" classname="com.qa.hubspot.tests.loginPageTest" time="4.3"/>
-  <testcase name="gotocontact" classname="com.qa.hubspot.tests.homePageTest" time="7.408"/>
-  <testcase name="verifyHomePageusername" classname="com.qa.hubspot.tests.homePageTest" time="8.054"/>
-  <testcase name="verifyheaderTitle" classname="com.qa.hubspot.tests.homePageTest" time="8.063"/>
-  <testcase name="createnewcontact" classname="com.qa.hubspot.tests.contactsPageTest" time="13.377"/>
-  <testcase name="createnewcontact" classname="com.qa.hubspot.tests.contactsPageTest" time="12.898"/>
-  <testcase name="createnewcontact" classname="com.qa.hubspot.tests.contactsPageTest" time="33.803">
-    <failure message="element not interactable&#10;  (Session info: chrome=87.0.4280.88)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-TQII0PK&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\anujo\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59071}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 4cd287eabf8dc498f89692a26f440ea1" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: 
-element not interactable
-  (Session info: chrome=87.0.4280.88)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-TQII0PK', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\anujo\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59071}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 4cd287eabf8dc498f89692a26f440ea1
-	at com.qa.hubspot.tests.contactsPageTest.createnewcontact(contactsPageTest.java:41)
-</failure>
-    <system-out><![CDATA[createnewcontact started!
-I am in onTestStart method createnewcontact start
-
-createnewcontact failed!
-I am in onTestFailure method createnewcontact failed
-Screenshot captured for test case:createnewcontact
-]]></system-out>
-  </testcase>
-  <testcase name="createnewcontact" classname="com.qa.hubspot.tests.contactsPageTest" time="20.752">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div/input[@name =&apos;first_name&apos;]&quot;}&#10;  (Session info: chrome=87.0.4280.88)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-TQII0PK&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\anujo\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59071}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 4cd287eabf8dc498f89692a26f440ea1&#10;*** Element info: {Using=xpath, value=//div/input[@name =&apos;first_name&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//div/input[@name ='first_name']"}
-  (Session info: chrome=87.0.4280.88)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-TQII0PK', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\anujo\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59071}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 4cd287eabf8dc498f89692a26f440ea1
-*** Element info: {Using=xpath, value=//div/input[@name ='first_name']}
-	at com.qa.hubspot.tests.contactsPageTest.createnewcontact(contactsPageTest.java:39)
-</failure>
-    <system-out><![CDATA[createnewcontact started!
-I am in onTestStart method createnewcontact start
-createnewcontact failed!
-I am in onTestFailure method createnewcontact failed
-Screenshot captured for test case:createnewcontact
-]]></system-out>
-  </testcase>
+  <testcase name="gettitle" classname="com.qa.hubspot.tests.loginPageTest" time="0.195"/>
+  <testcase name="checksignuplink" classname="com.qa.hubspot.tests.loginPageTest" time="0.016"/>
+  <testcase name="loginpagetest" classname="com.qa.hubspot.tests.loginPageTest" time="4.401"/>
+  <testcase name="gotocontact" classname="com.qa.hubspot.tests.homePageTest" time="7.852"/>
+  <testcase name="verifyHomePageusername" classname="com.qa.hubspot.tests.homePageTest" time="8.067"/>
+  <testcase name="verifyheaderTitle" classname="com.qa.hubspot.tests.homePageTest" time="8.097"/>
+  <testcase name="createnewcontact" classname="com.qa.hubspot.tests.contactsPageTest" time="13.5"/>
+  <testcase name="createnewcontact" classname="com.qa.hubspot.tests.contactsPageTest" time="13.439"/>
+  <testcase name="createnewcontact" classname="com.qa.hubspot.tests.contactsPageTest" time="13.107"/>
+  <testcase name="createnewcontact" classname="com.qa.hubspot.tests.contactsPageTest" time="13.379"/>
 </testsuite>

@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Free_CRM_dummy_framework">
-              <span class="suite-name border-failed">Free CRM dummy framework</span>
+              <span class="suite-name border-passed">Free CRM dummy framework</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,26 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">10 methods, 2 failed,   8 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Free_CRM_dummy_framework" class="hide-methods failed suite-Free_CRM_dummy_framework"> (hide)</a> <!-- hide-methods failed suite-Free_CRM_dummy_framework -->
-                      <a href="#" panel-name="suite-Free_CRM_dummy_framework" class="show-methods failed suite-Free_CRM_dummy_framework"> (show)</a> <!-- show-methods failed suite-Free_CRM_dummy_framework -->
-                    </span>
-                    <div class="method-list-content failed suite-Free_CRM_dummy_framework">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Free_CRM_dummy_framework" title="com.qa.hubspot.tests.contactsPageTest" hash-for-method="createnewcontact(renji, , john, cma cgm, engineer, jinm, good resource)">createnewcontact(renji, , john, cma cgm, engineer, jinm, good resource)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Free_CRM_dummy_framework" title="com.qa.hubspot.tests.contactsPageTest" hash-for-method="createnewcontact(jobin , , kuriakose, hykh, devops, joj, good resource)">createnewcontact(jobin , , kuriakose, hykh, devops, joj, good resource)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Free_CRM_dummy_framework -->
+                    <span class="method-stats">10 methods,   10 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -122,6 +103,16 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Free_CRM_dummy_framework" title="com.qa.hubspot.tests.loginPageTest" hash-for-method="checksignuplink">checksignuplink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Free_CRM_dummy_framework" title="com.qa.hubspot.tests.contactsPageTest" hash-for-method="createnewcontact(renji, , john, cma cgm, engineer, jinm, good resource)">createnewcontact(renji, , john, cma cgm, engineer, jinm, good resource)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Free_CRM_dummy_framework" title="com.qa.hubspot.tests.contactsPageTest" hash-for-method="createnewcontact(jobin , , kuriakose, hykh, devops, joj, good resource)">createnewcontact(jobin , , kuriakose, hykh, devops, joj, good resource)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -171,96 +162,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Free_CRM_dummy_framework" class="panel Free_CRM_dummy_framework">
-          <div class="suite-Free_CRM_dummy_framework-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.qa.hubspot.tests.contactsPageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="createnewcontact(renji, , john, cma cgm, engineer, jinm, good resource)">
-                  </a> <!-- createnewcontact(renji, , john, cma cgm, engineer, jinm, good resource) -->
-                  <span class="method-name">createnewcontact</span>
-                  <span class="parameters">(renji, , john, cma cgm, engineer, jinm, good resource)</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=87.0.4280.88)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-TQII0PK&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\anujo\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59071}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 4cd287eabf8dc498f89692a26f440ea1
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at com.qa.hubspot.pages.homePage.gotocontacts(homePage.java:41)
-	at com.qa.hubspot.tests.contactsPageTest.createnewcontact(contactsPageTest.java:41)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="createnewcontact(jobin , , kuriakose, hykh, devops, joj, good resource)">
-                  </a> <!-- createnewcontact(jobin , , kuriakose, hykh, devops, joj, good resource) -->
-                  <span class="method-name">createnewcontact</span>
-                  <span class="parameters">(jobin , , kuriakose, hykh, devops, joj, good resource)</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div/input[@name =&apos;first_name&apos;]&quot;}
-  (Session info: chrome=87.0.4280.88)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-TQII0PK&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\anujo\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59071}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 4cd287eabf8dc498f89692a26f440ea1
-*** Element info: {Using=xpath, value=//div/input[@name =&apos;first_name&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at com.qa.hubspot.pages.contactsPages.createnewcontact(contactsPages.java:39)
-	at com.qa.hubspot.tests.contactsPageTest.createnewcontact(contactsPageTest.java:39)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Free_CRM_dummy_framework-class-failed -->
-          <div class="suite-Free_CRM_dummy_framework-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.qa.hubspot.tests.contactsPageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="createnewcontact(anu, mary, john, tcs, automation, QET, good resource)">
-                  </a> <!-- createnewcontact(anu, mary, john, tcs, automation, QET, good resource) -->
-                  <span class="method-name">createnewcontact</span>
-                  <span class="parameters">(anu, mary, john, tcs, automation, QET, good resource)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="createnewcontact(amalu, , jose, tcs, developer, LT, good resource)">
-                  </a> <!-- createnewcontact(amalu, , jose, tcs, developer, LT, good resource) -->
-                  <span class="method-name">createnewcontact</span>
-                  <span class="parameters">(amalu, , jose, tcs, developer, LT, good resource)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Free_CRM_dummy_framework-class-passed -->
           <div class="suite-Free_CRM_dummy_framework-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -319,6 +220,46 @@ Session ID: 4cd287eabf8dc498f89692a26f440ea1
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Free_CRM_dummy_framework-class-passed -->
+          <div class="suite-Free_CRM_dummy_framework-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.hubspot.tests.contactsPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createnewcontact(renji, , john, cma cgm, engineer, jinm, good resource)">
+                  </a> <!-- createnewcontact(renji, , john, cma cgm, engineer, jinm, good resource) -->
+                  <span class="method-name">createnewcontact</span>
+                  <span class="parameters">(renji, , john, cma cgm, engineer, jinm, good resource)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createnewcontact(jobin , , kuriakose, hykh, devops, joj, good resource)">
+                  </a> <!-- createnewcontact(jobin , , kuriakose, hykh, devops, joj, good resource) -->
+                  <span class="method-name">createnewcontact</span>
+                  <span class="parameters">(jobin , , kuriakose, hykh, devops, joj, good resource)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createnewcontact(anu, mary, john, tcs, automation, QET, good resource)">
+                  </a> <!-- createnewcontact(anu, mary, john, tcs, automation, QET, good resource) -->
+                  <span class="method-name">createnewcontact</span>
+                  <span class="parameters">(anu, mary, john, tcs, automation, QET, good resource)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createnewcontact(amalu, , jose, tcs, developer, LT, good resource)">
+                  </a> <!-- createnewcontact(amalu, , jose, tcs, developer, LT, good resource) -->
+                  <span class="method-name">createnewcontact</span>
+                  <span class="parameters">(amalu, , jose, tcs, developer, LT, good resource)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Free_CRM_dummy_framework-class-passed -->
         </div> <!-- panel Free_CRM_dummy_framework -->
         <div panel-name="test-xml-Free_CRM_dummy_framework" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -331,7 +272,6 @@ Session ID: 4cd287eabf8dc498f89692a26f440ea1
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Free CRM dummy framework&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.qa.hubspot.listeners.ExtentReportListener&quot;/&gt;
-    &lt;listener class-name=&quot;com.qa.hubspot.listeners.AllureListener&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Login Page Test&quot;&gt;
     &lt;classes&gt;
@@ -395,43 +335,43 @@ data.addRows(10);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'createnewcontact')
 data.setCell(0, 2, 'com.qa.hubspot.tests.contactsPageTest')
-data.setCell(0, 3, 33036);
+data.setCell(0, 3, 13489);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'createnewcontact')
 data.setCell(1, 2, 'com.qa.hubspot.tests.contactsPageTest')
-data.setCell(1, 3, 20077);
+data.setCell(1, 3, 13436);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'createnewcontact')
 data.setCell(2, 2, 'com.qa.hubspot.tests.contactsPageTest')
-data.setCell(2, 3, 13379);
+data.setCell(2, 3, 13370);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'createnewcontact')
 data.setCell(3, 2, 'com.qa.hubspot.tests.contactsPageTest')
-data.setCell(3, 3, 12898);
+data.setCell(3, 3, 13104);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'verifyheaderTitle')
 data.setCell(4, 2, 'com.qa.hubspot.tests.homePageTest')
-data.setCell(4, 3, 8065);
+data.setCell(4, 3, 8093);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'verifyHomePageusername')
 data.setCell(5, 2, 'com.qa.hubspot.tests.homePageTest')
-data.setCell(5, 3, 8053);
+data.setCell(5, 3, 8065);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'gotocontact')
 data.setCell(6, 2, 'com.qa.hubspot.tests.homePageTest')
-data.setCell(6, 3, 7418);
+data.setCell(6, 3, 7854);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'loginpagetest')
 data.setCell(7, 2, 'com.qa.hubspot.tests.loginPageTest')
-data.setCell(7, 3, 4299);
+data.setCell(7, 3, 4397);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'gettitle')
 data.setCell(8, 2, 'com.qa.hubspot.tests.loginPageTest')
-data.setCell(8, 3, 85);
+data.setCell(8, 3, 75);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'checksignuplink')
 data.setCell(9, 2, 'com.qa.hubspot.tests.loginPageTest')
-data.setCell(9, 3, 2);
+data.setCell(9, 3, 0);
 window.suiteTableData['Free_CRM_dummy_framework']= { tableData: data, tableDiv: 'times-div-Free_CRM_dummy_framework'}
 return data;
 }
@@ -469,81 +409,77 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">gettitle</span>
-                <span class="method-start">9117 ms</span>
+                <span class="method-start">13415 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checksignuplink</span>
-                <span class="method-start">9348 ms</span>
+                <span class="method-start">13669 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">loginpagetest</span>
-                <span class="method-start">9353 ms</span>
+                <span class="method-start">13685 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">13656 ms</span>
+                <span class="method-start">18086 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.hubspot.tests.homePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setup</span>
-                <span class="method-start">14761 ms</span>
+                <span class="method-start">19325 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">homeSetup</span>
-                <span class="method-start">22218 ms</span>
+                <span class="method-start">27170 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">gotocontact</span>
-                <span class="method-start">22548 ms</span>
+                <span class="method-start">27546 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyHomePageusername</span>
-                <span class="method-start">29969 ms</span>
+                <span class="method-start">35402 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyheaderTitle</span>
-                <span class="method-start">38025 ms</span>
+                <span class="method-start">43471 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">46092 ms</span>
+                <span class="method-start">51568 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.hubspot.tests.contactsPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setup</span>
-                <span class="method-start">46829 ms</span>
+                <span class="method-start">52310 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">homeSetup</span>
-                <span class="method-start">55199 ms</span>
+                <span class="method-start">61630 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">createnewcontact(anu, mary, john, tcs, automation, QET, good resource)</span>
-                <span class="method-start">59359 ms</span>
+                <span class="method-start">65973 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">createnewcontact(amalu, , jose, tcs, developer, LT, good resource)</span>
-                <span class="method-start">72743 ms</span>
+                <span class="method-start">79474 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">createnewcontact(renji, , john, cma cgm, engineer, jinm, good resource)</span>
-                <span class="method-start">85645 ms</span>
+                <span class="method-start">92916 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">createnewcontact(jobin , , kuriakose, hykh, devops, joj, good resource)</span>
-                <span class="method-start">119453 ms</span>
+                <span class="method-start">106024 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">140191 ms</span>
+                <span class="method-start">119404 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
