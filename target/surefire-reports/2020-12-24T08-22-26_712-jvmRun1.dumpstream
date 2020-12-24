@@ -1,0 +1,33 @@
+# Created on 2020-12-24T08:22:53.782
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:386)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created on 2020-12-24T08:22:55.819
+Unexpected IOException with stream: gotocontact started!
+
+
+# Created on 2020-12-24T08:22:55.824
+Unexpected IOException: 5,1,com.qa.hubspot.tests.homePageTest,gotocontact(com.qa.hubspot.tests.homePageTest),com.qa.hubspot.tests.homePageTest,null,null
+
+
+# Created on 2020-12-24T08:23:03.374
+Unexpected IOException with stream: gotocontact passed!
+
+
+# Created on 2020-12-24T08:23:03.377
+Unexpected IOException: 6,1,com.qa.hubspot.tests.homePageTest,gotocontact(com.qa.hubspot.tests.homePageTest),null,null,null
+
+
+# Created on 2020-12-24T08:23:03.379
+Unexpected IOException with stream: verifyHomePageusername started!
+
+
+# Created on 2020-12-24T08:23:03.384
+Unexpected IOException: 5,1,com.qa.hubspot.tests.homePageTest,verifyHomePageusername(com.qa.hubspot.tests.homePageTest),com.qa.hubspot.tests.homePageTest,null,null
+
+

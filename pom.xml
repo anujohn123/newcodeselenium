@@ -13,7 +13,9 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <aspectj.version>1.9.4</aspectj.version>
+     <java.home>C:\Program Files\Java\jdk1.8.0_231</java.home>
 </properties>
+
 
 
 <build>
@@ -21,7 +23,7 @@
 <plugin>
 <groupId>org.apache.maven.plugins</groupId>
 <artifactId>maven-compiler-plugin</artifactId>
-<version>3.8.1</version>
+<version>3.6.1</version>
 
 <configuration>
 
